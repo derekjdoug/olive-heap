@@ -2,14 +2,15 @@
 
 let name = prompt('What is your name?');
 let time = prompt('What time is it? Hint: Military Time');
+let olove = prompt('Do you love olives?')
 let message;
 
 if(time <=1100){
-    message = 'Good Morning!';
+    message = 'Good Morning! ';
 } else if (time <= 1800){
-    message = 'Good Afternoon!';
+    message = 'Good Afternoon! ';
 } else if (time <=2400){
-    message = 'Good Evening!';
+    message = 'Good Evening! ';
 } else if (time >2400){
     message = 'Time does not exist!';
 }
