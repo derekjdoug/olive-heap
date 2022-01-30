@@ -44,7 +44,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color:blue;
+    color:rgba(37,142,255,1);
     text-decoration: underline;
     font-size: 22px;
 }

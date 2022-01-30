@@ -7,7 +7,7 @@ let message;
 if(time <=1100){
     message = 'Good Morning!';
 } else if (time <= 1800){
-    message - 'Good Afternoon!';
+    message = 'Good Afternoon!';
 } else if (time <=2400){
     message = 'Good Evening!';
 } else if (time >2400){
@@ -15,3 +15,5 @@ if(time <=1100){
 }
 
 document.write('Hello ' + name + '! ' + message);
+
+console.log('Ryan look at this')
