@@ -10,7 +10,7 @@ let time = prompt('What time is it? Hint: Military Time');
 let message;
 
 function greeting(){
-if(time <=1100){
+  if(time <=1100){
     message = 'Good Morning, ';
 } else if (time <= 1800){
     message = 'Good Afternoon, ';
@@ -20,3 +20,16 @@ if(time <=1100){
     message = 'Time does not exist,';
 } return message;
 }
+
+/*
+let disposition = prompt('Do you like olives?');
+
+function olives(){
+   if(disposition.toLowerCase = 'yes'){
+       reply = 'Great!';
+   else if(disposition.toLowerCase = 'no'){
+        reply = 'I have more to learn!';
+   }
+
+}
+*/
