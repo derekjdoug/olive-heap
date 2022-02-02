@@ -21,15 +21,17 @@ function greeting(){
 } return message;
 }
 
-/*
+
 let disposition = prompt('Do you like olives?');
+let reply;
 
 function olives(){
-   if(disposition.toLowerCase = 'yes'){
-       reply = 'Great!';
-   else if(disposition.toLowerCase = 'no'){
-        reply = 'I have more to learn!';
-   }
-
+  if(disposition == 'yes'){
+    reply = 'Great! You love olives? ';
+} else if (disposition == 'no'){
+    reply = 'So you do not love olives? You have more to learn! ';
+} else if (disposition == ' '){
+    reply = 'Unsure about olives?' ;
+} return reply;
 }
-*/
+
