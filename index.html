@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>The Olive Heap</title>
 
-        <link href="style.css" rel="stylesheet">
-        <script src="app.js"></script>
-    </head>
-    <body>
-        <header>
-            <h1>The Olive Heap</h1>
-            <nav>
-                <ul>
-                    <li><a href="/">Specialty Olives</a></li>
-                    <li><a href="/">Bulk Olives</a></li>
-                    <li><a href="/">Olive Oil</a></li>
-                    <li><a href="/">Volcanic Olives</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h2>Hello, <script>document.write(userName())</script>!</h2>
-           <img id="hero" alt="This is our storefront" src="images/storefront-final.jpg">
-           <ul>
-               <li><img alt="green olives" src="images/green olives.jpg"></li>
-               <li><img alt="olive oil" src="images/olive oil.jpg"></li>
-               <li><img alt="olive tree" src="images/olive tree.jpeg"></li>
-           </ul>
+<head>
+    <meta charset="utf-8">
+    <title>The Olive Heap</title>
 
-           <p><script>document.write(greeting())</script>welcome to Derek's Olive Heap!
-            <script>document.write(olives())</script> You came to the right place! We specialize in the finest quality of olives in the world, all at rock bottom prices! All of our olives are certified fair trade and organic, and remain <em>untouched by human hands</em> until they arrive at your doorstep. Check out our signature line of kalamatas, only grown on the volcanic slopes of Cumbre Vieja in the Canary Islands. Stop by our brick and mortar location in Helotes, TX or shop online to purchase olives by the barrel, sack, or container. It will change your life (in a good way).</p>
-        </main>
-        
-        <footer>&copy; 2022 The Olive Heap</footer>
-    </body>
+    <link href="style.css" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>The Olive Heap</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Specialty Olives</a></li>
+                <li><a href="/">Bulk Olives</a></li>
+                <li><a href="/">Olive Oil</a></li>
+                <li><a href="/">Volcanic Olives</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Hello,
+            <script>document.write(userName());</script>!
+        </h2>
+        <img id="hero" alt="This is our storefront" src="images/storefront-final.jpg">
+        <ul>
+            <li><img alt="green olives" src="images/green olives.jpg"></li>
+            <li><img alt="olive oil" src="images/olive oil.jpg"></li>
+            <li><img alt="olive tree" src="images/olive tree.jpeg"></li>
+        </ul>
+        <p>
+            <script>displayRating()</script>
+        </p>
+        <p>
+            <script>document.write(greeting());</script>welcome to Derek's Olive Heap!
+            <script>document.write(olives());</script> You came to the right place! We specialize in the finest quality
+            of olives in the world, all at rock bottom prices! All of our olives are certified fair trade and organic,
+            and remain <em>untouched by human hands</em> until they arrive at your doorstep. Check out our signature
+            line of kalamatas, only grown on the volcanic slopes of Cumbre Vieja in the Canary Islands. Stop by our
+            brick and mortar location in Helotes, TX or shop online to purchase olives by the barrel, sack, or
+            container. It will change your life (in a good way).
+        </p>
+    </main>
+
+    <footer>&copy; 2022 The Olive Heap</footer>
+</body>
+
 </html>
